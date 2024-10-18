@@ -15,7 +15,8 @@ The project uses a custom dataset containing Bitcoin transaction data from **blo
 - **`outputs.csv`**: Provides output information, including receiving addresses and amounts.
 - **`mapping.csv`**: Maps anonymized address IDs to actual Bitcoin addresses for analysis.
 
-## Important: Due to the size of the Dataset, i am unable to upload it here, in case of need contact me at leopuosi@protonmail.com
+## Important: 
+Due to the size of the Dataset, i am unable to upload it here, in case of need contact me at leopuosi@protonmail.com
 
 ## Main Features:
 1. **Transaction Fee and Congestion Analysis**:
@@ -60,3 +61,14 @@ The project uses a custom dataset containing Bitcoin transaction data from **blo
     mapping.csv
 
 3. **Run the Notebook**: Open Progetto.ipynb in Jupyter Notebook. Execute the cells to run the analyses, which include fee trends, mining pool de-anonymization, and Bitcoin flow tracing.
+
+## Graph examples:
+### Correlation between Network Congestion and Average Fee:
+   
+![image](https://github.com/user-attachments/assets/cfcb2578-dfe9-4183-90da-05b40862be0a)
+
+### Taint Analysis:
+   
+![image](https://github.com/user-attachments/assets/2a1c5c5e-988e-4443-a1b8-3f33925cf014)
+
+
